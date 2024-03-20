@@ -1,4 +1,4 @@
-export default () => {
+const Mountain = () => {
   const posts = [
     {
       Location: 'Aspen, Colorado, USA',
@@ -173,3 +173,5 @@ export default () => {
     </section>
   )
 }
+
+export default Mountain
