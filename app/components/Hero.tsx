@@ -12,9 +12,9 @@ const Hero = () => {
   ]
 
   useEffect(() => {
-    document.onclick = e => {
-      const target = e.target
-      if (!target.closest('.menu-btn')) setState(false)
+    document.onclick = (e: MouseEvent) => {
+      const target = e.target as Element
+      if (target && target.closest('.menu-btn')) setState(false)
     }
   }, [])
 
