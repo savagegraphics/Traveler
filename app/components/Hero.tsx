@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default () => {
+const Hero = () => {
   const [state, setState] = useState(false)
 
   // Replace javascript:void(0) paths with your paths
@@ -190,3 +190,5 @@ export default () => {
     </div>
   )
 }
+
+export default Hero
