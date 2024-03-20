@@ -16,7 +16,7 @@ type TabContentComponents = {
   Treehouse: JSX.Element
 }
 
-export default () => {
+const Card = () => {
   const [selectedTab, setSelectedTab] = useState('Mountain')
 
   const tabItems = ['Mountain', 'Waterfall', 'Exotic', 'Lakefront', 'Treehouse']
@@ -83,3 +83,5 @@ export default () => {
     </Tabs.Root>
   )
 }
+
+export default Card

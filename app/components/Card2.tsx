@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Home () {
+const Hero = () => {
   return (
     <div className='my-4 mx-8 lg:mx-24'>
       <section className='py-6 dark:bg-gray-800 dark:text-gray-50'>
@@ -60,3 +60,5 @@ export default function Home () {
     </div>
   )
 }
+
+export default Hero

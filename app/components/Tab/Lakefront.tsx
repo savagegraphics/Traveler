@@ -1,4 +1,4 @@
-export default () => {
+const Lakefront = () => {
   const posts = [
     {
       Location: 'Lake Placid, New York, USA',
@@ -173,3 +173,5 @@ export default () => {
     </section>
   )
 }
+
+export default Lakefront

@@ -1,4 +1,4 @@
-export default () => {
+const Waterfall = () => {
   const posts = [
     {
       Location: 'Blue Ridge Mountains, North Carolina, USA',
@@ -55,10 +55,10 @@ export default () => {
               />
               <div className='flex justify-between items-center mt-2 pt-3 mx-4'>
                 <div className='flex-start mr-3'>
-                <span className='block text-gray-900 font-semibold'>
+                  <span className='block text-gray-900 font-semibold'>
                     {items.HouseName}
-                  </span>       
-                           </div>
+                  </span>
+                </div>
                 <div className='flex-end ml-3'>
                   <span className='block text-gray-400 text-sm'>
                     <div className='flex items-center'>
@@ -173,3 +173,5 @@ export default () => {
     </section>
   )
 }
+
+export default Waterfall

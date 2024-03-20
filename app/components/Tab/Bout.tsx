@@ -1,4 +1,4 @@
-export default () => {
+const Bout = () => {
   const posts = [
     {
       Location: 'Malibu, California, USA',
@@ -168,3 +168,5 @@ export default () => {
     </section>
   )
 }
+
+export default Bout

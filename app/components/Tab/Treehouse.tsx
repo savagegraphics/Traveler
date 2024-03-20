@@ -1,4 +1,4 @@
-export default () => {
+const Treehouse = () => {
   const posts = [
     {
       Location: 'Amazon Rainforest, Brazil',
@@ -173,3 +173,5 @@ export default () => {
     </section>
   )
 }
+
+export default Treehouse
