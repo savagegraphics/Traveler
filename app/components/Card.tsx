@@ -69,9 +69,7 @@ const Card = () => {
           onChange={e => setSelectedTab(e.target.value)}
         >
           {tabItems.map((item, idx) => (
-            <option key={idx} idx={idx}>
-              {item}
-            </option>
+            <option key={idx}>{item}</option>
           ))}
         </select>
       </div>
