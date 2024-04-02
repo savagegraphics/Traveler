@@ -29,86 +29,78 @@ const Content = () => {
           <div className='grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0'>
             <ul className='space-y-3'>
               <li className='flex'>
-                <div className='flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-900 text-gray-100'>
-                  <div className='flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 512 512'
-                      fill='currentColor'
-                      className='h-9 w-9 text-gray-800'
-                    >
-                      <polygon points='160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039'></polygon>
-                      <path d='M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z'></path>
-                      <path d='M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z'></path>
-                    </svg>
-                  </div>
-                  <div className='flex flex-col justify-center align-middle'>
-                    <p className='text-3xl font-semibold leadi'>200</p>
-                    <p className='capitalize'>Orders</p>
-                  </div>
-                </div>
+                <a
+                  className='m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                  href='#'
+                >
+                  <svg
+                    className='flex-shrink-0 w-3 h-auto'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    fill='currentColor'
+                    viewBox='0 0 16 16'
+                  >
+                    <path d='m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z' />
+                  </svg>
+                  Health
+                </a>
               </li>
               <li className='flex'>
-                <div className='flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-900 text-gray-100'>
-                  <div className='flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 512 512'
-                      fill='currentColor'
-                      className='h-9 w-9 text-gray-800'
-                    >
-                      <polygon points='160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039'></polygon>
-                      <path d='M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z'></path>
-                      <path d='M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z'></path>
-                    </svg>
-                  </div>
-                  <div className='flex flex-col justify-center align-middle'>
-                    <p className='text-3xl font-semibold leadi'>200</p>
-                    <p className='capitalize'>Orders</p>
-                  </div>
-                </div>
+                <a
+                  className='m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                  href='#'
+                >
+                  <svg
+                    className='flex-shrink-0 w-3 h-auto'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    fill='currentColor'
+                    viewBox='0 0 16 16'
+                  >
+                    <path d='m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z' />
+                  </svg>
+                  Health
+                </a>
               </li>
             </ul>
             <ul className='space-y-3'>
               <li className='flex'>
-                <div className='flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-900 text-gray-100'>
-                  <div className='flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 512 512'
-                      fill='currentColor'
-                      className='h-9 w-9 text-gray-800'
-                    >
-                      <polygon points='160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039'></polygon>
-                      <path d='M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z'></path>
-                      <path d='M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z'></path>
-                    </svg>
-                  </div>
-                  <div className='flex flex-col justify-center align-middle'>
-                    <p className='text-3xl font-semibold leadi'>200</p>
-                    <p className='capitalize'>Orders</p>
-                  </div>
-                </div>
+                <a
+                  className='m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                  href='#'
+                >
+                  <svg
+                    className='flex-shrink-0 w-3 h-auto'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    fill='currentColor'
+                    viewBox='0 0 16 16'
+                  >
+                    <path d='m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z' />
+                  </svg>
+                  Health
+                </a>
               </li>
               <li className='flex'>
-                <div className='flex p-4 space-x-4 rounded-lg md:space-x-6 bg-gray-900 text-gray-100'>
-                  <div className='flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-violet-400'>
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      viewBox='0 0 512 512'
-                      fill='currentColor'
-                      className='h-9 w-9 text-gray-800'
-                    >
-                      <polygon points='160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039'></polygon>
-                      <path d='M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z'></path>
-                      <path d='M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z'></path>
-                    </svg>
-                  </div>
-                  <div className='flex flex-col justify-center align-middle'>
-                    <p className='text-3xl font-semibold leadi'>200</p>
-                    <p className='capitalize'>Orders</p>
-                  </div>
-                </div>
+                <a
+                  className='m-1 py-3 px-4 inline-flex items-center gap-x-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600'
+                  href='#'
+                >
+                  <svg
+                    className='flex-shrink-0 w-3 h-auto'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    fill='currentColor'
+                    viewBox='0 0 16 16'
+                  >
+                    <path d='m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z' />
+                  </svg>
+                  Health
+                </a>
               </li>
             </ul>
           </div>

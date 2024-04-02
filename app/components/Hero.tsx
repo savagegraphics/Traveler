@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
   const [state, setState] = useState(false)
@@ -6,9 +7,9 @@ const Hero = () => {
   // Replace javascript:void(0) paths with your paths
   const navigation = [
     { title: 'Home', path: 'Card' },
-    { title: 'Category', path: 'javascript:void(0)' },
-    { title: 'Blog', path: 'javascript:void(0)' },
-    { title: 'About Us', path: 'javascript:void(0)' }
+    { title: 'Category', path: 'Banner' },
+    { title: 'Blog', path: 'Banner' },
+    { title: 'About Us', path: 'Banner' }
   ]
 
   useEffect(() => {
@@ -20,14 +21,11 @@ const Hero = () => {
 
   const Brand = () => (
     <div className='flex items-center justify-between py-5 md:block'>
-      <a href='javascript:void(0)'>
-        <img
-          src='https://www.floatui.com/logo.svg'
-          width={120}
-          height={50}
-          alt='Float UI logo'
-        />
-      </a>
+      <Link href='/components/Tab/Card'>
+        <h1 className='my-6 text-2xl italic font-bold tracking-wider text-gray-800'>
+          TrekTopia
+        </h1>
+      </Link>
       <div className='md:hidden'>
         <button
           className='menu-btn text-gray-500 hover:text-gray-800'
@@ -95,9 +93,9 @@ const Hero = () => {
                         key={idx}
                         className='text-gray-700 hover:text-gray-900'
                       >
-                        <a href={item.path} className='block'>
+                        <Link href={item.path} className='block'>
                           {item.title}
-                        </a>
+                        </Link>
                       </li>
                     )
                   })}

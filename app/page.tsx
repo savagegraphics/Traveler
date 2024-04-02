@@ -5,7 +5,7 @@ import Card from './components/Card'
 import Card2 from './components/Card2'
 import Banner from './components/Banner'
 import Stats from './components/Stats'
-import Content from './components/Content'
+import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 
 export default function Home () {
@@ -16,7 +16,7 @@ export default function Home () {
       <Banner />
       <Card2 />
       <Stats />
-      <Content />
+      <Gallery />
       <Footer />
     </div>
   )
